@@ -29,15 +29,15 @@ public class TodoService {
         return todoRepository.findAll();
     }
 
-    public String updateTodo(int id, boolean done) {
+    public Todo updateTodo(int id, boolean done) {
         Todo todoToUpdate = todoRepository.findById(id).orElse(null);
         if (!todoToUpdate.equals(null)) {
             todoToUpdate.setDone(done);
             todoRepository.save(todoToUpdate);
-            return "State of Todo is updated";
+            return todoToUpdate;
         }
         else
-            return "Failed to update";
+            return null;
     }
 
     public String deleteTodo(int id) {

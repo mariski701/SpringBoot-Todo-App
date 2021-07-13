@@ -35,7 +35,7 @@ public class TodoController {
     }
 
     @PutMapping("/api/todo/updateTodo/{id}/{state}")
-    public String updateTodo(@PathVariable int id, boolean state) {
+    public Todo updateTodo(@PathVariable int id, @PathVariable boolean state) {
         return todoService.updateTodo(id, state);
     }
 

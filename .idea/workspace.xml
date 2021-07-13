@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd02009-fbde-4f4e-af46-52d769cd22ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/java/com/mariski/springBootToDo/Controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/build/bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/build/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/build/bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/kosz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/scripts/setupTypeScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/java/com/mariski/springBootToDo/Controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/java/com/mariski/springBootToDo/Controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/java/com/mariski/springBootToDo/Service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TODO app/springBootToDo/src/main/java/com/mariski/springBootToDo/Service/TodoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +55,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1vEgbuZK0vySmJf3wTU1KpAIfFz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -65,6 +82,19 @@
     <selection>jr</selection>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootToDoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springBootToDo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mariski.springBootToDo.SpringBootToDoApplication" />
@@ -82,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626132737010</updated>
       <workItem from="1626132739606" duration="1927000" />
-      <workItem from="1626134706482" duration="76000" />
+      <workItem from="1626134706482" duration="2911000" />
     </task>
     <servers />
   </component>
@@ -100,5 +130,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
