@@ -1,2 +1,2 @@
 # SpringBoot-Todo-App
- ToDoApp using spring boot
+ Full web application created with Spring Boot and Svelte.
