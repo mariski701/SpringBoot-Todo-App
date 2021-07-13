@@ -13,8 +13,9 @@ public class TodoService {
     @Autowired
     private TodoRepository todoRepository;
 
-    public Todo addTodo(Todo todo) {
-        return todoRepository.save(todo);
+    public List<Todo> addTodo(Todo todo) {
+        todoRepository.save(todo);
+        return todoRepository.findAll();
     }
 
     public List<Todo> addTodos(List<Todo> todos) {
@@ -29,24 +30,24 @@ public class TodoService {
         return todoRepository.findAll();
     }
 
-    public Todo updateTodo(int id, boolean done) {
+    public List<Todo> updateTodo(int id, boolean done) {
         Todo todoToUpdate = todoRepository.findById(id).orElse(null);
         if (!todoToUpdate.equals(null)) {
             todoToUpdate.setDone(done);
             todoRepository.save(todoToUpdate);
-            return todoToUpdate;
+            return todoRepository.findAll();
         }
         else
             return null;
     }
 
-    public String deleteTodo(int id) {
+    public List<Todo> deleteTodo(int id) {
         todoRepository.deleteById(id);
-        return "Todo of id " + id + " was successfully deleted";
+        return todoRepository.findAll();
     }
 
-    public String deleteAllTodos() {
+    public List<Todo> deleteAllTodos() {
         todoRepository.deleteAll();
-        return "Todos were removed";
+        return todoRepository.findAll();
     }
 }

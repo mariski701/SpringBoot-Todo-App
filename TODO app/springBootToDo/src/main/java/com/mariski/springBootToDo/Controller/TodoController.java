@@ -15,7 +15,7 @@ public class TodoController {
     TodoService todoService;
 
     @PostMapping("/api/todo/addTodo")
-    public Todo addTodo(@RequestBody Todo todo) {
+    public List<Todo> addTodo(@RequestBody Todo todo) {
         return todoService.addTodo(todo);
     }
 
@@ -35,17 +35,17 @@ public class TodoController {
     }
 
     @PutMapping("/api/todo/updateTodo/{id}/{state}")
-    public Todo updateTodo(@PathVariable int id, @PathVariable boolean state) {
+    public List<Todo> updateTodo(@PathVariable int id, @PathVariable boolean state) {
         return todoService.updateTodo(id, state);
     }
 
     @DeleteMapping("/api/todo/deleteTodo/{id}")
-    public String deleteTodo(@PathVariable int id) {
+    public List<Todo> deleteTodo(@PathVariable int id) {
         return todoService.deleteTodo(id);
     }
 
     @DeleteMapping("/api/todo/deleteTodos")
-    public String deleteAllTodos() {
+    public List<Todo> deleteAllTodos() {
         return todoService.deleteAllTodos();
     }
 }

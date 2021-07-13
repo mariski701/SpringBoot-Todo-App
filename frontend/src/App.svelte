@@ -76,13 +76,13 @@
 			<div class="text-center col-sm-4 col-sm-offset-4">
 				<ul id="filters" class="list-inline">
 					<li class="list-inline-item">
-						<a class="btn btn-primary" href={null} on:click={()=>updateFilter('all')}>Wszystkie</a>
+						<a class="btn btn-primary" href={null} on:click={()=>updateFilter('all')}>All</a>
 					</li>
 					<li class="list-inline-item">
-						<a class="btn btn-primary" href={null} on:click={()=>updateFilter('active')}>Niezakończone</a>
+						<a class="btn btn-primary" href={null} on:click={()=>updateFilter('active')}>Active</a>
 					</li>
 					<li class="list-inline-item">
-						<a  class="btn btn-primary" href={null} on:click={()=>updateFilter('completed')} >Zakończone</a>
+						<a  class="btn btn-primary" href={null} on:click={()=>updateFilter('completed')} >Finished</a>
 					</li>
 				</ul>
 			</div>
@@ -97,8 +97,8 @@
 		<div class="row" id="todo-form" align="center">
 			<div class="text-center col-sm-8 col-sm-offset-2">
 				<form>
-					<input bind:value={text} class="text-center form-control input-lg" placeholder="co jeszcze chcesz zrobić?"/>
-					<button class="btn btn-primary btn-lg" type="button" on:click={doPost}>Dodaj</button>
+					<input bind:value={text} class="text-center form-control input-lg" placeholder="What are you going to do?"/>
+					<button class="btn btn-primary btn-lg" type="button" on:click={doPost}>Add Todo</button>
 				</form>
 			</div>
 		</div>

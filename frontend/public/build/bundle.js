@@ -514,17 +514,17 @@ var app = (function () {
     			button = element("button");
     			img = element("img");
     			attr_dev(input, "type", "checkbox");
-    			add_location(input, file, 92, 5, 2155);
+    			add_location(input, file, 92, 5, 2140);
     			if (img.src !== (img_src_value = "kosz.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "width", "20");
     			attr_dev(img, "height", "20");
-    			add_location(img, file, 92, 141, 2291);
-    			add_location(button, file, 92, 104, 2254);
+    			add_location(img, file, 92, 141, 2276);
+    			add_location(button, file, 92, 104, 2239);
     			attr_dev(div0, "class", "text-center col-sm-4 col-sm-offset-4");
-    			add_location(div0, file, 91, 4, 2099);
+    			add_location(div0, file, 91, 4, 2084);
     			attr_dev(div1, "class", "row");
     			attr_dev(div1, "align", "center");
-    			add_location(div1, file, 90, 3, 2061);
+    			add_location(div1, file, 90, 3, 2046);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -638,15 +638,15 @@ var app = (function () {
     			ul = element("ul");
     			li0 = element("li");
     			a0 = element("a");
-    			a0.textContent = "Wszystkie";
+    			a0.textContent = "All";
     			t3 = space();
     			li1 = element("li");
     			a1 = element("a");
-    			a1.textContent = "Niezakończone";
+    			a1.textContent = "Active";
     			t5 = space();
     			li2 = element("li");
     			a2 = element("a");
-    			a2.textContent = "Zakończone";
+    			a2.textContent = "Finished";
     			t7 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -660,7 +660,7 @@ var app = (function () {
     			input = element("input");
     			t9 = space();
     			button = element("button");
-    			button.textContent = "Dodaj";
+    			button.textContent = "Add Todo";
     			add_location(h1, file, 71, 3, 1411);
     			attr_dev(div0, "class", "text-center jumbotron");
     			add_location(div0, file, 70, 2, 1372);
@@ -671,14 +671,14 @@ var app = (function () {
     			add_location(li0, file, 77, 5, 1566);
     			attr_dev(a1, "class", "btn btn-primary");
     			attr_dev(a1, "href", null);
-    			add_location(a1, file, 81, 6, 1742);
+    			add_location(a1, file, 81, 6, 1736);
     			attr_dev(li1, "class", "list-inline-item");
-    			add_location(li1, file, 80, 5, 1706);
+    			add_location(li1, file, 80, 5, 1700);
     			attr_dev(a2, "class", "btn btn-primary");
     			attr_dev(a2, "href", null);
-    			add_location(a2, file, 84, 6, 1889);
+    			add_location(a2, file, 84, 6, 1876);
     			attr_dev(li2, "class", "list-inline-item");
-    			add_location(li2, file, 83, 5, 1853);
+    			add_location(li2, file, 83, 5, 1840);
     			attr_dev(ul, "id", "filters");
     			attr_dev(ul, "class", "list-inline");
     			add_location(ul, file, 76, 4, 1523);
@@ -687,18 +687,18 @@ var app = (function () {
     			attr_dev(div2, "align", "center");
     			add_location(div2, file, 74, 2, 1444);
     			attr_dev(input, "class", "text-center form-control input-lg");
-    			attr_dev(input, "placeholder", "co jeszcze chcesz zrobić?");
-    			add_location(input, file, 99, 5, 2496);
+    			attr_dev(input, "placeholder", "What are you going to do?");
+    			add_location(input, file, 99, 5, 2481);
     			attr_dev(button, "class", "btn btn-primary btn-lg");
     			attr_dev(button, "type", "button");
-    			add_location(button, file, 100, 5, 2610);
-    			add_location(form, file, 98, 4, 2484);
+    			add_location(button, file, 100, 5, 2595);
+    			add_location(form, file, 98, 4, 2469);
     			attr_dev(div3, "class", "text-center col-sm-8 col-sm-offset-2");
-    			add_location(div3, file, 97, 3, 2429);
+    			add_location(div3, file, 97, 3, 2414);
     			attr_dev(div4, "class", "row svelte-mu5rr4");
     			attr_dev(div4, "id", "todo-form");
     			attr_dev(div4, "align", "center");
-    			add_location(div4, file, 96, 2, 2378);
+    			add_location(div4, file, 96, 2, 2363);
     			attr_dev(div5, "class", "container");
     			add_location(div5, file, 69, 1, 1346);
     			add_location(main, file, 68, 0, 1338);
